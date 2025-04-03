@@ -3,7 +3,10 @@
 ## Description
 
 Small **Pi** calculation. Supports several methods  
-to calculate pi which can select via argument! 
+to calculate pi which can select via argument!  
+  
+https://en.wikipedia.org/wiki/Pi  
+ 
 
 ## Looks like
 
