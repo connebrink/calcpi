@@ -1,11 +1,12 @@
-# Game of Life
+# Calculation of Pi
 
 ## Description
 
-Conway's Game of Life in C++
+Small **Pi** calculation. Supports several methods  
+to calculate pi which can select via argument! 
 
 ## Looks like
-[![Watch the video](https://i.ytimg.com/vi/gVY5uHGCzd4/hqdefault.jpg)](https://www.youtube.com/watch?v=gVY5uHGCzd4)
+
 
 ## Requirements
 
