@@ -15,7 +15,8 @@ enum CalcPiType {
   CON_EULER,
   CON_RAMA,
   GRP_NORMAL,
-  GRP_MONTECARLO
+  GRP_MONTECARLO,
+  UNKNOWN
 };
 
 struct CalcRunConditions {
@@ -27,6 +28,8 @@ struct CalcRunConditions {
 
 CalcRunConditions readRunConditions(int argCount, char **argStr) {
   CalcRunConditions runConditions;
+  runConditions.type = CalcPiType::UNKNOWN;
+  runConditions.iterations = 0;
   runConditions.isComplete = false;
   runConditions.showGraph = false;
   for (int i = 0; i < argCount; ++i) {
