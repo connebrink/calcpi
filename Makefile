@@ -8,8 +8,8 @@ OUTDIRBIN=$(OUTDIR)/bin
 
 CXX=g++
 CXXFLAGS=-std=c++20
-CXXFLAGSREL=$(CXXFLAGS) -static -O2 -s -g0 -DNDEBUG
-CXXFLAGSDEB=$(CXXFLAGS) -O0 -g -DDEBUG
+CXXFLAGSREL=$(CXXFLAGS) -Wall -Werror -O2 -s -g0 -DNDEBUG
+CXXFLAGSDEB=$(CXXFLAGS) -Wall -Werror -O0 -g -DDEBUG
 
 LDLIBS=-lsfml-graphics -lsfml-window -lsfml-system
 
