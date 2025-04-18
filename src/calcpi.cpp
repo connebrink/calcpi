@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include <string>
+#include <math.h>
 
 const int R_SUCCESS = 0;
 const int R_INVALID_CONDITIONS = -1;
@@ -22,7 +23,7 @@ struct CalcRunConditions {
   bool isComplete;
 };
 
-CalcRunConditions readRunConditions(int argCount, char argStrs) {
+CalcRunConditions readRunConditions(int argCount, char argStr) {
   CalcRunConditions runConditions;
   runConditions.isComplete = false;
   return runConditions;
